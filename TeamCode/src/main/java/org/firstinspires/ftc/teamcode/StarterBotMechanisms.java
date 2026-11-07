@@ -44,7 +44,7 @@ public class StarterBotMechanisms {
         launcher.setPIDFCoefficients(DcMotor.RunMode.RUN_USING_ENCODER, LAUNCHER_PIDF);
 
         rightIntakeServo.setDirection(DcMotorSimple.Direction.REVERSE);
-        windmillServo.setDirection(DcMotorSimple.Direction.REVERSE);
+       // windmillServo.setDirection(DcMotorSimple.Direction.REVERSE);
 
         stop();
     }
